@@ -1,0 +1,98 @@
+body{
+    background: #E44D26;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1
+{
+    font-size:2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    height: 50px;
+    width: 50px;
+}
+
+
+.container{
+   max-width: 950px;
+   background: #0F2027;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+   margin: 10px auto;
+   height: 60vh;
+   overflow-y: auto;
+   border: 2px solid black;
+   border-radius: 8px;
+}
+
+.message
+{
+  background-color: lightgrey;
+  width: 24%;
+  padding: 10px;
+  margin:17px 12px;
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+.left
+{
+    float: left;
+    clear: both;
+}
+
+.right
+{
+    float:right;
+    clear: both;
+}
+
+#send-form
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 980px;
+}
+
+#messageInp
+{
+    width: 90%;
+    border:2px solid black;
+    border-radius: 5px;
+    max-width: 800px;
+    height: 30px;
+    
+}
+
+#send-form input{
+    background-color: rgb(255, 255, 255);
+    border:0;
+    height: 40px;
+    padding:0 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius:6px;
+    cursor:pointer;
+    height: 40px;
+    width:60px;
+    background-color: rgb(202, 156, 24);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
